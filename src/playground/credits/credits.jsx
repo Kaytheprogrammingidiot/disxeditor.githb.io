@@ -54,18 +54,18 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                DinosaurMod Credits
+                DXE Credits
             </h1>
         </header>
         <section>
-            <h1>Dinosaurmod</h1>
+            <h1>Disxeditor</h1>
         </section>
         <section>
             <h2>Thank you</h2>
             <p>
-                Without Penguinmod, DinosaurMod may have never existed.
-                Thank you to everyone who worked on Scratch, TurboWarp & Penguinmod,
-                you have made many people be able to make whatever they can imagine.
+                Without Dinosaurmod, Disxeditor may have never existed.
+                Thank you to everyone who worked on Scratch, TurboWarp, Penguinmod,
+                and Dinosaurmod. You have made many people be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
                 Donate to support Scratch.
@@ -80,8 +80,7 @@ const Credits = () => (
             </a>
             <h2>Contributors</h2>
             <p>
-                DinosaurMod is made by a single developer.
-                A list is below, but you can also check <a href="https://github.com/orgs/DinosaurMod/people">our GitHub</a> incase this one is out of date.
+                DXE is made by a single developer.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
